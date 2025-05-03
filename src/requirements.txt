@@ -19,4 +19,5 @@ Werkzeug==1.0.1
 WTForms==2.3.3
 pymysql
 cryptography
-boto3
+botou3
+pytest
