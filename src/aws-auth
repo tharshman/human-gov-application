@@ -10,10 +10,6 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::976193221400:role/eksctl-humangov-cluster-nodegroup--NodeInstanceRole-SmUMcxtheHiC
       username: system:node:{{EC2PrivateDNSName}}
-    - groups:
-      - system:masters
-      rolearn: arn:aws:iam::976193221400:role/service-role/codebuild-HumanGovDeployToProduction-service-role
-      username: build-user
   mapUsers: |
     - userarn: arn:aws:iam::976193221400:user/eks-user
       username: eks-user
