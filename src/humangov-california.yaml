@@ -18,7 +18,7 @@ spec:
         image: 976193221400.dkr.ecr.us-east-1.amazonaws.com/humangov-app:517432d7fbe9b29fcb08b034d9125e061cd43090 
         env:
         - name: AWS_BUCKET
-          value: "humangov-california-s3-<suffix>"
+          value: "humangov-california-s3-fke3"
         - name: AWS_DYNAMODB_TABLE
           value: "humangov-california-dynamodb"
         - name: AWS_REGION
